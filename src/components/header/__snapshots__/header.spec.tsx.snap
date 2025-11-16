@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Header should render component 1`] = `
+<div>
+  <h1>
+     your header!
+  </h1>
+</div>
+`;
