@@ -10,7 +10,7 @@ export function Header() {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="Logo do gameteca"
+              alt="Controle de videogame estilizado com orelhas e nariz que formam o rosto de um panda"
               quality={100}
               priority
               width={150}
@@ -26,7 +26,11 @@ export function Header() {
 
         <div className="hidden sm:flex justify-center items-center">
           <Link href="/profile">
-            <LiaGamepadSolid size={34} color="#393939" />
+            <LiaGamepadSolid
+              size={34}
+              color="#393939"
+              aria-label="Gamepad icon"
+            />
           </Link>
         </div>
       </div>
