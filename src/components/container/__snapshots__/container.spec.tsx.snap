@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Container should match snapshot 1`] = `
+<div>
+  <div
+    class="max-w-7xl mx-auto px-3"
+  >
+    <div
+      data-testid="children-test-id"
+    >
+       hello! i am a children!
+    </div>
+  </div>
+</div>
+`;
