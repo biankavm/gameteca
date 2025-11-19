@@ -1,6 +1,6 @@
-import { getDalyGame } from '@/services/game'
+import { getDalyGame, getGamesData } from '@/services/game'
 
-import { Container, Input } from '@/components'
+import { Container, GamesList, Input } from '@/components'
 import { Game } from '@/types/game'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,6 +8,7 @@ import { BsArrowRightSquare } from 'react-icons/bs'
 
 async function Home() {
   const dalyGame: Game = await getDalyGame()
+  const games: Game[] = await getGamesData()
 
   const { id, image_url, title } = dalyGame
 
@@ -40,6 +41,8 @@ async function Home() {
         </Link>
 
         <Input />
+
+        <GamesList games={games} />
       </Container>
     </main>
   )
