@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Input should match snapshot 1`] = `
+<div>
+  <form
+    class="w-full bg-[#FBF8F1] my-5 flex gap-2 items-center justify-between rounded-lg p-2"
+  >
+    <input
+      class="bg-[#FBF8F1] outline-none w-11/12"
+      placeholder="Procurando algum jogo? ..."
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      <svg
+        color="#393939"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        style="color: rgb(57, 57, 57);"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </button>
+  </form>
+</div>
+`;
