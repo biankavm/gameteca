@@ -12,7 +12,7 @@ export function GameCard({ game }: GameCardProps) {
 
   return (
     <Link href={`/game/${id}`}>
-      <section className="w-full bg-slate-200 rounded-lg p-4 mb-5">
+      <section className="w-full bg-[#FBF8F1] rounded-lg p-4 mb-5">
         <div className="relative w-full h-56 hover:scale-105 transition-all duration-300">
           <Image
             src={image_url}
