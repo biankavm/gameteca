@@ -1,6 +1,6 @@
 import { getDalyGame } from '@/services/game'
 
-import { Container } from '@/components'
+import { Container, Input } from '@/components'
 import { Game } from '@/types/game'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -25,6 +25,7 @@ async function Home() {
                 <p className="font-bold text-xl text-white"> {title}</p>
                 <BsArrowRightSquare size={24} color="#fff" />
               </div>
+
               <Image
                 src={image_url}
                 alt={title}
@@ -37,6 +38,8 @@ async function Home() {
             </div>
           </section>
         </Link>
+
+        <Input />
       </Container>
     </main>
   )
